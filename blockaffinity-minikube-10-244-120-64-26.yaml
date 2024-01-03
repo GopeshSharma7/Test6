@@ -1,0 +1,12 @@
+apiVersion: crd.projectcalico.org/v1
+kind: BlockAffinity
+metadata:
+  annotations:
+    projectcalico.org/metadata: '{"creationTimestamp":null}'
+  creationTimestamp: "2023-12-27T18:11:27Z"
+  name: minikube-10-244-120-64-26
+spec:
+  cidr: 10.244.120.64/26
+  deleted: "false"
+  node: minikube
+  state: confirmed

@@ -1,23 +1,23 @@
 action: Binding
-apiVersion: events.k8s.io/v1
-deprecatedFirstTimestamp: null
-deprecatedLastTimestamp: null
-deprecatedSource: {}
+apiVersion: v1
 eventTime: "2024-01-03T06:34:14.143791Z"
-kind: Event
-metadata:
-  creationTimestamp: "2024-01-03T06:34:14Z"
-  name: katafygio-5bdff4d548-jcbng.17a6c2c38cda51a3
-  namespace: default
-note: Successfully assigned default/katafygio-5bdff4d548-jcbng to minikube
-reason: Scheduled
-regarding:
+firstTimestamp: null
+involvedObject:
   apiVersion: v1
   kind: Pod
   name: katafygio-5bdff4d548-jcbng
   namespace: default
   resourceVersion: "1200557"
   uid: 396a553e-77b8-4d0f-82f6-b95c0b0a9f07
-reportingController: default-scheduler
+kind: Event
+lastTimestamp: null
+message: Successfully assigned default/katafygio-5bdff4d548-jcbng to minikube
+metadata:
+  creationTimestamp: "2024-01-03T06:34:14Z"
+  name: katafygio-5bdff4d548-jcbng.17a6c2c38cda51a3
+  namespace: default
+reason: Scheduled
+reportingComponent: default-scheduler
 reportingInstance: default-scheduler-minikube
+source: {}
 type: Normal

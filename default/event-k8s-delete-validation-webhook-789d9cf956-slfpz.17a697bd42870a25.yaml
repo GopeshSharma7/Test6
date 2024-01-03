@@ -1,24 +1,26 @@
-apiVersion: events.k8s.io/v1
-deprecatedCount: 50
-deprecatedFirstTimestamp: "2024-01-02T17:25:48Z"
-deprecatedLastTimestamp: "2024-01-03T06:21:12Z"
-deprecatedSource:
-  component: kubelet
-  host: minikube
+apiVersion: v1
+count: 50
 eventTime: null
-kind: Event
-metadata:
-  creationTimestamp: "2024-01-02T17:25:48Z"
-  name: k8s-delete-validation-webhook-789d9cf956-slfpz.17a697bd42870a25
-  namespace: default
-note: 'MountVolume.SetUp failed for volume "ssl-keys" : secret "k8s-delete-validation-webhook-secret"
-  not found'
-reason: FailedMount
-regarding:
+firstTimestamp: "2024-01-02T17:25:48Z"
+involvedObject:
   apiVersion: v1
   kind: Pod
   name: k8s-delete-validation-webhook-789d9cf956-slfpz
   namespace: default
   resourceVersion: "864640"
   uid: b68c7b56-0901-4708-8703-659cd8de4484
+kind: Event
+lastTimestamp: "2024-01-03T06:21:12Z"
+message: 'MountVolume.SetUp failed for volume "ssl-keys" : secret "k8s-delete-validation-webhook-secret"
+  not found'
+metadata:
+  creationTimestamp: "2024-01-02T17:25:48Z"
+  name: k8s-delete-validation-webhook-789d9cf956-slfpz.17a697bd42870a25
+  namespace: default
+reason: FailedMount
+reportingComponent: ""
+reportingInstance: ""
+source:
+  component: kubelet
+  host: minikube
 type: Warning
