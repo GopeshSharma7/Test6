@@ -1,0 +1,27 @@
+apiVersion: v1
+count: 1
+eventTime: null
+firstTimestamp: "2024-01-03T06:34:21Z"
+involvedObject:
+  apiVersion: v1
+  fieldPath: spec.containers{katafygio}
+  kind: Pod
+  name: katafygio-5bdff4d548-jcbng
+  namespace: default
+  resourceVersion: "1200561"
+  uid: 396a553e-77b8-4d0f-82f6-b95c0b0a9f07
+kind: Event
+lastTimestamp: "2024-01-03T06:34:21Z"
+message: Created container katafygio
+metadata:
+  creationTimestamp: "2024-01-03T06:34:21Z"
+  name: katafygio-5bdff4d548-jcbng.17a6c2c551a7c430
+  namespace: default
+  uid: 51a52527-85ac-4b5e-a232-25137de2fb69
+reason: Created
+reportingComponent: ""
+reportingInstance: ""
+source:
+  component: kubelet
+  host: minikube
+type: Normal

@@ -1,0 +1,25 @@
+apiVersion: v1
+count: 1
+eventTime: null
+firstTimestamp: "2024-01-03T06:34:13Z"
+involvedObject:
+  apiVersion: apps/v1
+  kind: ReplicaSet
+  name: katafygio-797fbcd6bf
+  namespace: default
+  resourceVersion: "1200545"
+  uid: 2b3fff8c-d2d1-400f-9288-aad18298d091
+kind: Event
+lastTimestamp: "2024-01-03T06:34:13Z"
+message: 'Deleted pod: katafygio-797fbcd6bf-cp2rt'
+metadata:
+  creationTimestamp: "2024-01-03T06:34:13Z"
+  name: katafygio-797fbcd6bf.17a6c2c35c04c333
+  namespace: default
+  uid: e5f943f8-3b60-4f7d-9f25-1cb371100944
+reason: SuccessfulDelete
+reportingComponent: ""
+reportingInstance: ""
+source:
+  component: replicaset-controller
+type: Normal
